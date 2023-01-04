@@ -12,19 +12,12 @@ import uuid
 
 headers = {
     'authority': 'z9c2d6140-z4b7d7573-gtw.z86770b17.prm.sh',
-    'accept': '*/*',
-    'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
     'content-type': 'application/json',
     'origin': 'https://mint.mntge.io',
     'referer': 'https://mint.mntge.io/',
     'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
-    'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Linux"',
-    'sec-fetch-dest': 'empty',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-site': 'cross-site',
     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
-    'vary': 'Origin'
 }
 
 w3 = Web3(Web3.HTTPProvider("https://rpc.builder0x69.io"))
